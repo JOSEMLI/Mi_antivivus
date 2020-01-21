@@ -9,21 +9,23 @@
 
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Servicio de reproducción de música"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="Analisis de virus" />
         <Button android:id="@+id/boton_arrancar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Arrancar servicio"/>
+            android:text="Analizar Antivirus"/>
         <Button android:id="@+id/boton_detener"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Detener servicio"/>
+            android:text="Detener Antivirus"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
